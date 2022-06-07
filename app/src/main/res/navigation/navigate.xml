@@ -18,5 +18,13 @@
         <action
             android:id="@+id/action_homeFragment_to_detailFragment"
             app:destination="@id/detailFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_packageDetailsFragment"
+            app:destination="@id/packageDetailsFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/packageDetailsFragment"
+        android:name="com.muchori.joseph.PackageDetailsFragment"
+        android:label="fragment_package_details"
+        tools:layout="@layout/fragment_package_details" />
 </navigation>

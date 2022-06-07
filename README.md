@@ -1,3 +1,6 @@
-### BottomSheet Dialog 
+## BottomSheet Dialog 
  
--[x] Using material ui and fragments
+[x] Using material ui and fragments
+
+
+## Persistent Bottom Sheet  

@@ -11,10 +11,20 @@
         android:id="@+id/buttonSheetDialog"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="BottomSheet Dialog"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="Bottom Sheet Dialog"
+        android:layout_marginTop="200dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonSheetDialog2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bottom Sheet"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSheetDialog" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

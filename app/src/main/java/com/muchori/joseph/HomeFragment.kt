@@ -24,6 +24,9 @@ class HomeFragment : Fragment() {
     binding.buttonSheetDialog.setOnClickListener {
       findNavController().navigate(R.id.action_homeFragment_to_detailFragment)
     }
+    binding.buttonSheetDialog2.setOnClickListener {
+      findNavController().navigate(R.id.action_homeFragment_to_packageDetailsFragment)
+    }
 
     return binding.root
   }
